@@ -1,0 +1,49 @@
+#+title:     hyuqueue-topic-rss
+#+language:  en
+
+* Introduction
+
+=hyuqueue-topic-rss= is a /topic/ implementation for [[https://github.com/LoganBarnett/hyuqueue][Hyuqueue]] — a self-training,
+LLM-powered task handling system.  A Hyuqueue topic is a child process that the
+Hyuqueue runtime spawns to handle a specific category of work; this one handles
+RSS feeds.
+
+The topic speaks JSON-RPC 2.0 over its standard input and standard output.  The
+Hyuqueue runtime is the only intended caller.  Logs go to standard error so the
+stdio transport stays clean.
+
+This repository currently contains the project scaffolding.  The RSS-handling
+logic will be filled in in subsequent commits.
+
+* Installation
+
+** From source
+
+#+begin_src sh :exports code
+nix build .#cli
+#+end_src
+
+The resulting binary is placed at =./result/bin/hyuqueue-topic-rss=.
+
+** Development shell
+
+#+begin_src sh :exports code
+nix develop                              # or `direnv allow` once
+cargo build --workspace
+#+end_src
+
+* Nix flake exports
+
+- =packages.${system}.default= — full workspace build.
+- =packages.${system}.cli= — the =hyuqueue-topic-rss= binary.
+- =apps.${system}.cli= — runnable app entry point.
+- =devShells.${system}.default= — development shell.
+
+* Usage
+
+The binary is not intended to be run interactively.  Hyuqueue invokes it as a
+child process and communicates over its stdio with JSON-RPC 2.0 frames.
+
+* Contributing
+
+See [[file:CONTRIBUTING.org][CONTRIBUTING.org]].
