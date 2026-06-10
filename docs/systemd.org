@@ -4,9 +4,9 @@
 * Overview
 
 The NixOS module uses systemd's ~LoadCredential~ to pass secret files to the
-service. This avoids granting the service user direct read access to the secret
-         on disk: systemd copies the file into a unit-scoped credential
-         directory before the process starts.
+service.  This avoids granting the service user direct read access to the secret
+on disk: systemd copies the file into a unit-scoped credential directory before
+the process starts.
 
 * How it works
 

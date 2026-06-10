@@ -7,11 +7,11 @@
         "rust-overlay": "rust-overlay"
       },
       "locked": {
-        "lastModified": 1779403595,
-        "narHash": "sha256-aNYTigHOQZL2+2oKyTfgT+3k3DfKcgtQFF/beebFnls=",
+        "lastModified": 1780088521,
+        "narHash": "sha256-l47lwX3AzMpaNPXfpEVudzutRpd3zLUve0EfsweOspw=",
         "owner": "LoganBarnett",
         "repo": "changelog-roller",
-        "rev": "8aadb03134bc93fd2288f4df7407c21237dab467",
+        "rev": "1c5efbce12c2fc51a5d8c86f1bab24da8fa518d5",
         "type": "github"
       },
       "original": {
@@ -27,11 +27,11 @@
         "rust-overlay": "rust-overlay_2"
       },
       "locked": {
-        "lastModified": 1779403595,
-        "narHash": "sha256-aNYTigHOQZL2+2oKyTfgT+3k3DfKcgtQFF/beebFnls=",
+        "lastModified": 1780088497,
+        "narHash": "sha256-J2rIAUdOvYOqIX67E47hCw62nYCh/ZhEI2uhhFq/vN0=",
         "owner": "LoganBarnett",
         "repo": "changelog-roller",
-        "rev": "8aadb03134bc93fd2288f4df7407c21237dab467",
+        "rev": "4bf5e3106f4cba9dd3cee58a308865aa2330b3d4",
         "type": "github"
       },
       "original": {
@@ -111,11 +111,11 @@
         "rust-overlay": "rust-overlay_3"
       },
       "locked": {
-        "lastModified": 1779554590,
-        "narHash": "sha256-dLQ5hEInMQ68OIVDA8BCnu+Zf+1H5rHpatyHrQQRDIg=",
+        "lastModified": 1780685568,
+        "narHash": "sha256-XzvvGUEM/e9OSI4X+lg/DTtwIr/JNiaR7gnH9Qq/YxE=",
         "owner": "LoganBarnett",
         "repo": "rust-template",
-        "rev": "6d65d3d880890eed337cde7556b8c38ad02d0896",
+        "rev": "a4815ecc6b97ff9256d7607f5d86ec792956da14",
         "type": "github"
       },
       "original": {
@@ -252,11 +252,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1779148644,
-        "narHash": "sha256-EL+JZu3TlTwCgZI5fZoq/Cud0s7Jm4s702b/aPBJnsY=",
+        "lastModified": 1780088241,
+        "narHash": "sha256-MRZUj/uZBhIvPJmOIjGzM9PlU+H/of72DNrnwnCwzOw=",
         "owner": "LoganBarnett",
         "repo": "org-fmt",
-        "rev": "cc98be0ca7fa4f16678d55e8268f8a4bda1a3536",
+        "rev": "25c865b87f50f8e4633c18570af387dd5708d925",
         "type": "github"
       },
       "original": {
@@ -278,11 +278,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1779148644,
-        "narHash": "sha256-EL+JZu3TlTwCgZI5fZoq/Cud0s7Jm4s702b/aPBJnsY=",
+        "lastModified": 1780170211,
+        "narHash": "sha256-J88qNRVC5YFxp1AaqsW6R6bByjFxZ4n+dXsTV439CV4=",
         "owner": "LoganBarnett",
         "repo": "org-fmt",
-        "rev": "cc98be0ca7fa4f16678d55e8268f8a4bda1a3536",
+        "rev": "92a603feea4ae8c9046e4e2ad0dfbf5950d4af4c",
         "type": "github"
       },
       "original": {
