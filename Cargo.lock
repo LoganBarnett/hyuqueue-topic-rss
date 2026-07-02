@@ -284,8 +284,8 @@ checksum = "dc897dd8d9e8bd1ed8cdad82b5966c3e0ecae09fb1907d58efaa013543185d0a"
 
 [[package]]
 name = "rust-template-foundation"
-version = "0.10.0"
-source = "git+https://github.com/LoganBarnett/rust-template.git#a4815ecc6b97ff9256d7607f5d86ec792956da14"
+version = "0.24.0"
+source = "git+https://github.com/LoganBarnett/rust-template.git#1b92c12eab1ce9281b09260bcaf3f1708f7a85f6"
 dependencies = [
  "clap",
  "home",
@@ -299,8 +299,8 @@ dependencies = [
 
 [[package]]
 name = "rust-template-foundation-derive"
-version = "0.10.0"
-source = "git+https://github.com/LoganBarnett/rust-template.git#a4815ecc6b97ff9256d7607f5d86ec792956da14"
+version = "0.24.0"
+source = "git+https://github.com/LoganBarnett/rust-template.git#1b92c12eab1ce9281b09260bcaf3f1708f7a85f6"
 dependencies = [
  "proc-macro2",
  "quote",
